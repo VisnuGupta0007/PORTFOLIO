@@ -86,7 +86,7 @@ function Home() {
                             </div>
                         </div>
                         <p className='text-gray-700 font-semibold text-center md:text-left'>
-                            Passionate about creating user-centric, visually appealing, and responsive web applications. Proficient in modern frontend technologies like HTML, CSS, JavaScript, and frameworks such as React and Tailwind CSS. Seeking an opportunity to leverage my creativity and technical skills. A fast learner and problem-solver, I stay updated with the latest web technologies and strive to craft high-performing web solutions. Currently, I'm focused on expanding my expertise in modern front-end frameworks and UI/UX best practices.
+                            Passionate about creating user-centric, visually appealing, and Responsive web Applications. Proficient in modern frontend technologies like HTML, CSS, JavaScript, and frameworks such as React and Tailwind CSS. Seeking an opportunity to leverage my creativity and technical skills. A fast learner and problem-solver, I stay updated with the latest web technologies and strive to craft high-performing web solutions. Currently, I'm focused on expanding my expertise in modern front-end frameworks and UI/UX best practices.
                         </p>
 
                         <h1 className=' text-3xl text-center font-bold'>Certificates </h1>
