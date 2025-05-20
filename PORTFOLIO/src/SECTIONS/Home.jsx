@@ -169,13 +169,14 @@ function Home() {
 
 
              <section className='project flex flex-col items-center mt-10 px-6 md:px-12 lg:px-24'>
-                <div className='text-center'>
-                    <h4 className='text-gray-700 text-2xl font-medium'>Browse My Recent</h4>
-                    <h1 className='text-4xl md:text-5xl font-bold mt-2'>Projects</h1>
-                </div>
+      <div className='text-center'>
+        <h4 className='text-gray-700 text-2xl font-medium'>Browse My Recent</h4>
+        <h1 className='text-4xl md:text-5xl font-bold mt-2'>Projects</h1>
+      </div>
 
 
-                    <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center px-4">
+      <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center px-4">
+
         {/* Card 1 */}
         <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
           <div className="flex justify-center">
@@ -201,14 +202,14 @@ function Home() {
         <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
           <div className="flex justify-center">
             <img
-              src="https://i.pinimg.com/736x/d9/8f/dd/d98fdd5c30de63fd1c79cbc380eb43c7.jpg"
-              alt="Card 2"
+              src="https://static-00.iconduck.com/assets.00/uber-icon-1024x1024-4icncyyo.png"
+              alt="Card 4"
               className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
             />
           </div>
           <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
             <a
-              href="https://clone-kfc-tailwind-app.vercel.app/"
+              href="https://clone-uber-henna.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono"
@@ -243,6 +244,29 @@ function Home() {
         <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
           <div className="flex justify-center">
             <img
+              src="https://i.pinimg.com/736x/d9/8f/dd/d98fdd5c30de63fd1c79cbc380eb43c7.jpg"
+              alt="Card 2"
+              className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
+            />
+          </div>
+          <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
+            <a
+              href="https://clone-kfc-tailwind-app.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono"
+            >
+              Go Live
+            </a>
+          </button>
+        </div>
+
+
+
+        {/* Card 5 */}
+        <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
+          <div className="flex justify-center">
+            <img
               src="https://tse1.mm.bing.net/th?id=OIP.iGZO46DdQlFctZ-03Hq2HgHaEm&pid=Api&P=0&h=180"
               alt="Card 4"
               className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
@@ -259,7 +283,13 @@ function Home() {
             </a>
           </button>
         </div>
-      </div>            </section>
+
+
+
+      </div>
+
+    </section>
+            
             <section className='contact flex flex-col items-center mt-20 px-6 md:px-12 lg:px-24'>
                 <div className='text-center'>
                     <h4 className='text-gray-700 text-2xl font-medium'>Get in Touch</h4>
