@@ -2,7 +2,7 @@ import React from 'react';
 
 function Project() {
   return (
-    
+
     <section className='project flex flex-col items-center mt-10 px-6 md:px-12 lg:px-24'>
       <div className='text-center'>
         <h4 className='text-gray-700 text-2xl font-medium'>Browse My Recent</h4>
@@ -98,7 +98,7 @@ function Project() {
 
 
 
-        {/* Card 4 */}
+        {/* Card 5 */}
         <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
           <div className="flex justify-center">
             <img
