@@ -20,6 +20,8 @@ import { FaGitAlt } from "react-icons/fa";
 function Home() {
     return (
         <>
+
+            {/* Profile */}
             <section className='profile flex flex-col  md:flex-row  items-center justify-center mt-36 px-6 md:px-12 lg:px-24 gap-20'>
                 <div className='flex justify-center'>
                     <img src="" alt="" id='image-1' className='border rounded-full w-40 h-40 md:w-52 md:h-52' />
@@ -32,7 +34,7 @@ function Home() {
                     <div className='flex flex-col md:flex-row items-center md:items-start gap-4 mt-6'>
                         <button
                             className='border-2 border-slate-400 text-xl p-3 w-44 rounded-full font-semibold hover:bg-zinc-700 hover:text-white hover:animate-pulse'
-                            onClick={() => window.open("https://drive.google.com/file/d/1L9js7STaKJJVDD9mraIqEOQu-rarfTUE/view", "_blank")}
+                            onClick={() => window.open("https://drive.google.com/file/d/1iu2xs_4025Zd9h1w-1QgSSBYCuEguTL5/view?usp=sharing", "_blank")}
                         >
                             Show CV
                         </button>
@@ -57,6 +59,7 @@ function Home() {
             </section>
 
 
+            {/* About */}
             <section className='about mt-16 px-6 md:px-12 lg:px-24'>
                 <div className='text-center'>
                     <h4 className='font-semibold text-gray-700'>Get To Know More</h4>
@@ -86,7 +89,7 @@ function Home() {
                             </div>
                         </div>
                         <p className='text-gray-700 font-semibold text-center md:text-left'>
-                            Passionate about creating user-centric, visually appealing, and responsive web applications. Proficient in modern frontend technologies like HTML, CSS, JavaScript, and frameworks such as React and Tailwind CSS. Seeking an opportunity to leverage my creativity and technical skills. A fast learner and problem-solver, I stay updated with the latest web technologies and strive to craft high-performing web solutions. Currently, I'm focused on expanding my expertise in modern front-end frameworks and UI/UX best practices.
+                            Passionate about creating user-centric, visually appealing, and Responsive web Applications. Proficient in modern frontend technologies like HTML, CSS, JavaScript, and frameworks such as React and Tailwind CSS. Seeking an opportunity to leverage my creativity and technical skills. A fast learner and problem-solver, I stay updated with the latest web technologies and strive to craft high-performing web solutions. Currently, I'm focused on expanding my expertise in modern front-end frameworks and UI/UX best practices.
                         </p>
 
                         <h1 className=' text-3xl text-center font-bold'>Certificates </h1>
@@ -109,6 +112,7 @@ function Home() {
             </section >
 
 
+            {/* Skills */}
             <section className="skills flex flex-col items-center mt-10 px-5 md:px-10">
                 <div className="text-center">
                     <h1 className="text-gray-700 text-2xl font-medium md:text-3xl">
@@ -168,128 +172,152 @@ function Home() {
             </section>
 
 
-             <section className='project flex flex-col items-center mt-10 px-6 md:px-12 lg:px-24'>
-      <div className='text-center'>
-        <h4 className='text-gray-700 text-2xl font-medium'>Browse My Recent</h4>
-        <h1 className='text-4xl md:text-5xl font-bold mt-2'>Projects</h1>
-      </div>
+            {/* Project */}
+
+            <section className='project flex flex-col items-center mt-10 px-6 md:px-12 lg:px-24'>
+                <div className='text-center'>
+                    <h4 className='text-gray-700 text-2xl font-medium'>Browse My Recent</h4>
+                    <h1 className='text-4xl md:text-5xl font-bold mt-2'>Projects</h1>
+                </div>
 
 
-      <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center px-4">
+                <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center px-4">
 
-        {/* Card 1 */}
-        <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
-          <div className="flex justify-center">
-            <img
-              src="https://tse1.mm.bing.net/th?id=OIP.Or4sEmf4dlDEcO_NpYL8-gHaFr&pid=Api&P=0&h=180"
-              alt="Card 1"
-              className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
-            />
-          </div>
-          <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
-            <a
-              href="https://tailwind-react-app-orpin.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono"
-            >
-              Go Live
-            </a>
-          </button>
-        </div>
+                    {/* Card 1 */}
+                    <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
+                        <div className="flex justify-center">
+                            <img
+                                src="https://tse1.mm.bing.net/th?id=OIP.Or4sEmf4dlDEcO_NpYL8-gHaFr&pid=Api&P=0&h=180"
+                                alt="Frontend_Landing"
+                                className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
+                            />
+                        </div>
+                        <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
+                            <a
+                                href="https://tailwind-react-app-orpin.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-mono"
+                            >
+                                Go Live
+                            </a>
+                        </button>
+                    </div>
 
-        {/* Card 2 */}
-        <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
-          <div className="flex justify-center">
-            <img
-              src="https://static-00.iconduck.com/assets.00/uber-icon-1024x1024-4icncyyo.png"
-              alt="Card 4"
-              className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
-            />
-          </div>
-          <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
-            <a
-              href="https://clone-uber-henna.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono"
-            >
-              Go Live
-            </a>
-          </button>
-        </div>
+                    {/* Card 2 */}
+                    <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
+                        <div className="flex justify-center">
+                            <img
+                                src="https://static-00.iconduck.com/assets.00/uber-icon-1024x1024-4icncyyo.png"
+                                alt="Clone_Uber"
+                                className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
+                            />
+                        </div>
+                        <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
+                            <a
+                                href="https://clone-uber-henna.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-mono"
+                            >
+                                Go Live
+                            </a>
+                        </button>
+                    </div>
 
-        {/* Card 3 */}
-        <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
-          <div className="flex justify-center">
-            <img
-              src="https://tse2.mm.bing.net/th?id=OIP.wqHhmvPRyrqKt8UUkFFpUwAAAA&pid=Api&P=0&h=180"
-              alt="Clone_Cashify"
-              className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
-            />
-          </div>
-          <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
-            <a
-              href="https://clone-cashify-tailwind-app.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono"
-            >
-              Go Live
-            </a>
-          </button>
-        </div>
+                    {/* Card 3 */}
+                    <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
+                        <div className="flex justify-center">
+                            <img
+                                src="https://tse2.mm.bing.net/th?id=OIP.wqHhmvPRyrqKt8UUkFFpUwAAAA&pid=Api&P=0&h=180"
+                                alt="Clone_Cashify"
+                                className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
+                            />
+                        </div>
+                        <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
+                            <a
+                                href="https://clone-cashify-tailwind-app.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-mono"
+                            >
+                                Go Live
+                            </a>
+                        </button>
+                    </div>
 
-        {/* Card 4 */}
-        <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
-          <div className="flex justify-center">
-            <img
-              src="https://i.pinimg.com/736x/d9/8f/dd/d98fdd5c30de63fd1c79cbc380eb43c7.jpg"
-              alt="Card 2"
-              className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
-            />
-          </div>
-          <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
-            <a
-              href="https://clone-kfc-tailwind-app.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono"
-            >
-              Go Live
-            </a>
-          </button>
-        </div>
-
-
-
-        {/* Card 5 */}
-        <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
-          <div className="flex justify-center">
-            <img
-              src="https://tse1.mm.bing.net/th?id=OIP.iGZO46DdQlFctZ-03Hq2HgHaEm&pid=Api&P=0&h=180"
-              alt="Card 4"
-              className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
-            />
-          </div>
-          <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
-            <a
-              href="https://github.com/VisnuGupta0007/HTML-AND-CSS-AMAZON-DUMMY-"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono"
-            >
-              Go Live
-            </a>
-          </button>
-        </div>
+                    {/* Card 4 */}
+                    <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
+                        <div className="flex justify-center">
+                            <img
+                                src="https://i.pinimg.com/736x/d9/8f/dd/d98fdd5c30de63fd1c79cbc380eb43c7.jpg"
+                                alt="Clone_KFC"
+                                className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
+                            />
+                        </div>
+                        <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
+                            <a
+                                href="https://clone-kfc-tailwind-app.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-mono"
+                            >
+                                Go Live
+                            </a>
+                        </button>
+                    </div>
 
 
+                    {/* Card 5 */}
+                    <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
+                        <div className="flex justify-center">
+                            <img
+                                src="https://user-images.githubusercontent.com/39626451/192898250-711e2281-ab03-433a-afeb-4ad542b68a5b.png"
+                                alt="BootStrap_Landing"
+                                className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
+                            />
+                        </div>
+                        <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
+                            <a
+                                href="https://bootstrap-landing-five.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-mono"
+                            >
+                                Go Live
+                            </a>
+                        </button>
+                    </div>
 
-      </div>
+                    {/* Card 6 */}
+                    <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
+                        <div className="flex justify-center">
+                            <img
+                                src="https://tse1.mm.bing.net/th?id=OIP.iGZO46DdQlFctZ-03Hq2HgHaEm&pid=Api&P=0&h=180"
+                                alt="Amazon"
+                                className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
+                            />
+                        </div>
+                        <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
+                            <a
+                                href="https://github.com/VisnuGupta0007/HTML-AND-CSS-AMAZON-DUMMY-"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-mono"
+                            >
+                                Go Live
+                            </a>
+                        </button>
+                    </div>
 
-    </section>
-            
+
+
+                </div>
+
+            </section>
+
+
+            {/* Contact */}
             <section className='contact flex flex-col items-center mt-20 px-6 md:px-12 lg:px-24'>
                 <div className='text-center'>
                     <h4 className='text-gray-700 text-2xl font-medium'>Get in Touch</h4>
