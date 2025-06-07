@@ -34,7 +34,7 @@ function Home() {
                     <div className='flex flex-col md:flex-row items-center md:items-start gap-4 mt-6'>
                         <button
                             className='border-2 border-slate-400 text-xl p-3 w-44 rounded-full font-semibold hover:bg-zinc-700 hover:text-white hover:animate-pulse'
-                            onClick={() => window.open("https://drive.google.com/file/d/1iu2xs_4025Zd9h1w-1QgSSBYCuEguTL5/view?usp=sharing", "_blank")}
+                            onClick={() => window.open("https://drive.google.com/file/d/16yYybs_WmmlUCSQO_UCvitvAAnm89Kin/view", "_blank")}
                         >
                             Show CV
                         </button>
