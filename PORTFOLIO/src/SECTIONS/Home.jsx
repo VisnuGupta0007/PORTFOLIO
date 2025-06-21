@@ -34,7 +34,7 @@ function Home() {
                     <div className='flex flex-col md:flex-row items-center md:items-start gap-4 mt-6'>
                         <button
                             className='border-2 border-slate-400 text-xl p-3 w-44 rounded-full font-semibold hover:bg-zinc-700 hover:text-white hover:animate-pulse'
-                            onClick={() => window.open("https://drive.google.com/file/d/16yYybs_WmmlUCSQO_UCvitvAAnm89Kin/view", "_blank")}
+                            onClick={() => window.open("https://drive.google.com/file/d/16yYybs_WmmlUCSQO_UCvitvAAnm89Kin/view?usp=sharing", "_blank")}
                         >
                             Show CV
                         </button>
@@ -250,6 +250,28 @@ function Home() {
                     <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
                         <div className="flex justify-center">
                             <img
+                                src="https://i.pinimg.com/736x/d4/a2/90/d4a29065a63c96b6595c0b763b5c3e0d.jpg"
+                                alt="Amazon"
+                                className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
+                            />
+                        </div>
+                        <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
+                            <a
+                                href="https://fitness-xi-two.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-mono"
+                            >
+                                Go Live
+                            </a>
+                        </button>
+                    </div>
+
+
+                    {/* Card 5 */}
+                    <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
+                        <div className="flex justify-center">
+                            <img
                                 src="https://i.pinimg.com/736x/d9/8f/dd/d98fdd5c30de63fd1c79cbc380eb43c7.jpg"
                                 alt="Clone_KFC"
                                 className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
@@ -268,7 +290,7 @@ function Home() {
                     </div>
 
 
-                    {/* Card 5 */}
+                    {/* Card 6 */}
                     <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
                         <div className="flex justify-center">
                             <img
@@ -289,7 +311,9 @@ function Home() {
                         </button>
                     </div>
 
-                    {/* Card 6 */}
+
+
+                    {/* Card 7 */}
                     <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
                         <div className="flex justify-center">
                             <img
@@ -300,7 +324,7 @@ function Home() {
                         </div>
                         <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
                             <a
-                                href="https://github.com/VisnuGupta0007/HTML-AND-CSS-AMAZON-DUMMY-"
+                                href="https://rawcdn.githack.com/VisnuGupta0007/HTML-AND-CSS-AMAZON-DUMMY-/6adb767b0fb2d8c8214599766c477b826d926ccb/AMAZON.html"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="font-mono"
@@ -309,8 +333,6 @@ function Home() {
                             </a>
                         </button>
                     </div>
-
-
 
                 </div>
 
