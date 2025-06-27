@@ -1,4 +1,5 @@
 import React from 'react';
+import ToDo_Project from '../SECTIONS/ToDo_Project.png'
 
 function Project() {
   return (
@@ -80,7 +81,7 @@ function Project() {
           <div className="flex justify-center">
             <img
               src="https://i.pinimg.com/736x/d4/a2/90/d4a29065a63c96b6595c0b763b5c3e0d.jpg"
-              alt="Amazon"
+              alt="WorkOut"
               className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
             />
           </div>
@@ -96,8 +97,29 @@ function Project() {
           </button>
         </div>
 
-
         {/* Card 5 */}
+        <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
+          <div className="flex justify-center">
+            <img
+              src={ToDo_Project}
+              alt="To_Do_List"
+              className="w-full h-60 md:h-80 border-2 rounded-3xl shadow-2xl object-cover"
+            />
+          </div>
+          <button className="flex shadow-xl items-center justify-center h-12 p-4 border-2 rounded-full mt-5 hover:bg-gray-800 hover:text-white hover:animate-pulse w-full">
+            <a
+              href="https://redux-to-do-app-ruddy.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono"
+            >
+              Go Live
+            </a>
+          </button>
+        </div>
+
+
+        {/* Card 6 */}
         <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
           <div className="flex justify-center">
             <img
@@ -119,7 +141,7 @@ function Project() {
         </div>
 
 
-        {/* Card 6 */}
+        {/* Card 7 */}
         <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
           <div className="flex justify-center">
             <img
@@ -142,7 +164,7 @@ function Project() {
 
 
 
-        {/* Card 7 */}
+        {/* Card 8 */}
         <div className="border-2 p-6 md:p-10 rounded-3xl shadow-2xl w-full max-w-md">
           <div className="flex justify-center">
             <img
@@ -163,8 +185,10 @@ function Project() {
           </button>
         </div>
 
-      </div>
 
+
+
+      </div>
 
     </section>
 
